@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Me</title>
+</head>
+<body>
+    <h1 class="time"></h1>
+    <div id="start-section">
+        <P>View High score</P>
+        <p>time</p>
+        <h1>Coding Quiz Challenge</h1>
+        <P>Try to answer these questions before the time runs out</P>
+        <button>Start Game</button>
+    </div>
+    <div id="quiz-section"hidden>
+        <h2>Question Text</h2>
+            <ul>
+                <li><button>Question 1</button></li>
+                <li><button>Question 2</button></li>
+                <li><button>Question 3</button></li>
+                <li><button>Question 4</button></li>
+            </ul>
+    </div>
+    <div id="high-scores-section"hidden>All done!
+    <p>your final score is </p>
+    <label for="fname">Enter initials:</label>
+    <input type="text" id="fname" name="fname"><button>Submit</button><br><br>
+    </div>
+    
+    
+    <div id="high-score-final"hidden>
+        <p>High Scores</p>
+        <input type="text" id="hsName" name="fname">
+        <br>
+        <button>go back</button>
+        <button>Clear high score</button>
+    </div>
+    <script src="assets/Quiz.js"></script>
+</body>
+
+</html>
