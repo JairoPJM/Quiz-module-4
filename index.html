@@ -8,8 +8,8 @@
 </head>
 <body>
     <h1 class="time"></h1>
+    <button id="high-score-btn">View High score</button>
     <div id="start-section">
-        <P>View High score</P>
         <p>time</p>
         <h1>Coding Quiz Challenge</h1>
         <P>Try to answer these questions before the time runs out</P>
@@ -27,18 +27,18 @@
     <div id="high-scores-section"hidden>All done!
     <p>your final score is </p>
     <label for="fname">Enter initials:</label>
-    <input type="text" id="fname" name="fname"><button>Submit</button><br><br>
+    <input type="text" id="fname" name="fname"><button id="submit-btn">Submit</button><br><br>
     </div>
     
     
     <div id="high-score-final"hidden>
         <p>High Scores</p>
-        <input type="text" id="hsName" name="fname">
+        <ol id="highscores"></ol>
         <br>
-        <button>go back</button>
-        <button>Clear high score</button>
+        <button id="go-back">go back</button>
+        <button id="clear-btn">Clear high score</button>
     </div>
-    <script src="assets/Quiz.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
