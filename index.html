@@ -24,26 +24,33 @@
     <div id="quiz-section"hidden>
         <h2>Question Text</h2>
             <ul>
-                <li><button>Question 1</button></li>
-                <li><button>Question 2</button></li>
-                <li><button>Question 3</button></li>
-                <li><button>Question 4</button></li>
+                <div class="choices-container">
+                <li><button class="choice-prefix">Question 1</button></li></div>
+
+                <div class="choices-container">
+                <li><button class="choice-prefix">Question 2</button></li></div>
+
+                <div class="choices-container">
+                <li><button class="choice-prefix">Question 3</button></li></div>
+
+                <div class="choices-container">
+                <li><button class="choice-prefix">Question 4</button></li></div>
             </ul>
+        </div>
     </div>
     <div id="high-scores-section"hidden>All done!
     <p>your final score is </p>
     <label for="fname">Enter initials:</label>
     <input type="text" id="fname" name="fname"><button id="submit-btn">Submit</button><br><br>
     </div>
-    
-    
     <div id="high-score-final"hidden>
+        <div class="text-center align-middle">
         <p>High Scores</p>
         <ol id="highscores"></ol>
         <br>
         <button id="go-back">go back</button>
         <button id="clear-btn">Clear high score</button>
-    </div>
+    </div></div>
     <script src="script.js"></script>
 </body>
 

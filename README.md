@@ -2,7 +2,7 @@
 
 ## Description
 In this project, I wanted to build a quiz.This project was made in VSCODE and then deployed through GitHub.
-This quiz consisted of 5 questions and when a answer was chosen incorrectly it took away time. you start of with 80 seconds to complete the quiz. the amount of time left over is your score.
+This quiz consisted of 5 questions and when a answer was chosen incorrectly it takes away time. you start of with 80 seconds to complete the quiz. the amount of time left over is your score.
 
 ## Installation
 To run this project you can load it directly using the link provided.

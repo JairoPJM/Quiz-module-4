@@ -1,5 +1,7 @@
+/* Main page section */
 *{
     background-color: rgb(253, 223, 223);
+    list-style: none;
 }
 .time{
     font-size: 24px;
@@ -16,4 +18,53 @@ button{
     color: rgb(247, 244, 244);
     border: none;
     border-radius: 5px;
+}
+
+/* Quiz section */
+.choice-prefix{
+    display: flex;
+    margin-bottom:0.8rem;
+    width:100%;
+    border-radius: 4px;
+    background-color: rgb(236, 141, 141);
+    font-size: 3rem;
+    min-width: 80rem;
+    padding: 2rem 2.5rem;
+    color:white;
+}
+.choice-prefix:hover{
+    cursor: pointer;
+    box-shadow:0 0.4rem 1.4rem 0 rgb(237, 84, 84);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+ul{
+    list-style: none;
+}
+#quiz-section{
+    text-align: center;
+    color: rgb(236, 141, 141);
+    padding: 10px;
+}
+/* Enter intials section */
+#high-scores-section{
+    text-size-adjust: 30;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(236, 141, 141);
+    content: attr(aria-label);
+    box-sizing: border-box;
+};
+.highscorecss{
+    text-size-adjust: 30;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(236, 141, 141);
+    content: attr(aria-label);
+    box-sizing: border-box;
+};
+#highscores{
+    list-style: none;
 }

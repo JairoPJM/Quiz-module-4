@@ -23,30 +23,29 @@ let quizActive=true;
 // All the questions in the quiz that are randomized
 var questions=[
   {
-    text:"Question 1",
-    answers:["Answer 1a","Answer 1b","Answer 1c","Answer 1d"],
+    text:"Commonly used data types\n Do Not include:",
+    answers:["strings","booleans","alerts","numbers"],
     correctIndex:2
   },
   {
-    text:"Question 2",
-    answers:["Answer 2a","Answer 2b","Answer 2c","Answer 2d"],
+    text:"The condition in an if/else statement is enclosed with _______",
+    answers:["quotes","curly brackets","parenthesis","square brackets"],
     correctIndex:2
   },
   {
-    text:"Question 3",
-    answers:["Answer 3a","Answer 3b","Answer 3c","Answer 3d"],
-    correctIndex:2
+    text:"Arrays in javascript can be used to store ________",
+    answers:["numbers and strings","all of the above","other arrays","booleans"],
+    correctIndex:1
   },
   {
-    text:"Question 4",
-    answers:["Answer 4a","Answer 4b","Answer 4c","Answer 4d"],
-    correctIndex:2
-  },
-  {
-    text:"Question 5",
-    answers:["Answer 5a","Answer 5b","Answer 5c","Answer 5d"],
-    correctIndex:2
-  },
+    text:"String values must be enclosed withing____ when being assigned to variables.",
+    answers:["commas","curly brackets","quotes","parenthesis"],
+    correctIndex:3
+  },{
+    text:"A very useful tool used during development and debugging for printing content to the debugger is:",
+    answers:["javascript","terminal/bash","for loops","console.log"],
+    correctIndex:3
+  }
 ];
 // Helps to randomize the quiz
 var questionIndex=0;
@@ -62,8 +61,10 @@ highScoresBtn.addEventListener("click",function(){
       quizSectionEl.hidden=true;
       highScoresSectionEl.hidden=true;
       startSectionEl.hidden =true;
-      highScoreFinalEl.hidden=false
-      printScores();
+      highScoreFinalEl.hidden=false;
+      highScoresBtn.hidden=true;
+      printScores()
+
 });
 
 // First button that starts the game
