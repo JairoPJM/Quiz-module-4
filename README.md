@@ -6,6 +6,7 @@ This quiz consisted of 5 questions and when a answer was chosen incorrectly it t
 
 ## Installation
 To run this project you can load it directly using the link provided.
+https://jairopjm.github.io/Quiz-module-4/
 
 ## Usage
 N/A
