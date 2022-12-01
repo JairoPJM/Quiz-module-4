@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(253, 223, 223);
+}
+.time{
+    font-size: 24px;
+    color:rgb(236, 141, 141);
+    }
+.text-center{
+    color:rgb(236, 141, 141);
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+button{
+    background-color:rgb(236, 141, 141);
+    color: rgb(247, 244, 244);
+    border: none;
+    border-radius: 5px;
+}

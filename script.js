@@ -62,8 +62,8 @@ highScoresBtn.addEventListener("click",function(){
       quizSectionEl.hidden=true;
       highScoresSectionEl.hidden=true;
       startSectionEl.hidden =true;
-      timeEl.hidden=true
-      highScoreFinalEl.hidden=false;
+      highScoreFinalEl.hidden=false
+      printScores();
 });
 
 // First button that starts the game
@@ -161,6 +161,7 @@ goBackBtn.addEventListener("click",function(){
   highScoreFinalEl.hidden=true;
   startSectionEl.hidden = false;
   timeEl.hidden=true
+  location.reload()
 
 })
 
