@@ -147,7 +147,7 @@ function printScores(){
     var liTag = document.createElement('li')
     liTag.textContent = currentScoreObj.initial + ':' + currentScoreObj.score
     ol.append(liTag)
-    
+    highScoresBtn.hidden=true;
     // var li = document.createElement('li')
     // li.textContent = highscorearr[i].initial
   }
